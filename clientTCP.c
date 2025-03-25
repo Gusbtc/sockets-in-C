@@ -7,7 +7,7 @@
 
 int main(){
     const char ip[] = "127.0.0.1";
-    const int PORT = 9992;
+    const int PORT = 9999;
     char enviar[1024];
     char buffer[1024];
     int s;
