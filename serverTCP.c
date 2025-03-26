@@ -42,7 +42,7 @@ int main(){
         }
         printf("Client -> %s", buffer);
 
-        printf("Send -> ");
+        printf("Server -> ");
         fgets(enviar, 1024, stdin);
 
         if (strcmp(enviar, "/exit\n") == 0){ // Receber "comandos"
